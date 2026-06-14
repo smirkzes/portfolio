@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
+:root {
+    --primarycream: #ece4da;
+    --primaryblue: #1346c4;
+    --secondaryblue: #10218e;
+    --textblue: #111B62;
+}
+
+body{
+    background: var(--primarycream)
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    font-family: "BBH Bartle", sans-serif;
+    color: var(--textblue);
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+.subtitle {
+    font-family: "BBH Bartle", sans-serif;
+    color: var(--textblue);
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 57px;
+}
+
+.box{
+    height: 9px;
+    width: 920px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: var(--textblue)
+}
+
+.img1{
+    position: absolute;
+    top: 40px;
+    width: 76%;
+}
+
+.img2{
+    position: absolute;
+    top: 70px;
+    width: 76%;
+}
