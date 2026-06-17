@@ -48,6 +48,15 @@ h1{
     z-index: -3;
 }
 
+.box1{
+    height: 9px;
+    width: 1110px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: var(--textblue);
+    z-index: -3;
+}
+
 .img1{
     position: absolute;
     z-index: -1;
@@ -214,7 +223,7 @@ h1{
     width:777px;
     height:365px;
     border-radius: 7px;
-    color: rgba(0, 0, 0, 0)
+    color: rgba(0, 0, 0, 0);
 }
 
 .galleryhover:hover{
@@ -229,4 +238,33 @@ h1{
     font-size: 200%;
     position: relative;
     top: 80%;
+}
+
+.buttong{
+    text-decoration: none;
+    color: inherit;
+}
+
+.imgresize{
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.4));
+}
+
+.actualgallery{
+    margin-top: 4rem;
+}
+
+.actualgallery > div {
+    columns: 3;
+    gap: 1.25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.actualgallery > img {
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
