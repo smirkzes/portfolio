@@ -128,6 +128,7 @@ h1{
     font-family: "Belanosima", sans-serif;
     margin-left: 15px;
     margin-top:5px;
+    margin-right: 15px;
     font-size: 130%;
     color: var(--textblue)
 }
@@ -142,6 +143,15 @@ h1{
     border-top: 2px solid rgba(255, 255, 255, 0.4);
     border-left: 2px solid rgba(255, 255, 255, 0.3);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+}
+
+.program-container{
+    margin-top: 25px;
+}
+
+.dp{
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .gallery{
